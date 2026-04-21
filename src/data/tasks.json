@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Complete HTML Basics",
+    "description": "Finish learning basic HTML tags and structure",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-25"
+  },
+  {
+    "id": 2,
+    "title": "Practice CSS Flexbox",
+    "description": "Build 2 layouts using flexbox",
+    "status": "in-progress",
+    "priority": "medium",
+    "due_date": "2026-04-26"
+  },
+  {
+    "id": 3,
+    "title": "Learn CSS Grid",
+    "description": "Understand grid system and build a project",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-28"
+  },
+  {
+    "id": 4,
+    "title": "JavaScript Variables",
+    "description": "Practice var, let, const",
+    "status": "completed",
+    "priority": "high",
+    "due_date": "2026-04-20"
+  },
+  {
+    "id": 5,
+    "title": "DOM Manipulation",
+    "description": "Learn querySelector and event handling",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-30"
+  },
+  {
+    "id": 6,
+    "title": "Build To-Do App",
+    "description": "Create a simple todo app using JavaScript",
+    "status": "in-progress",
+    "priority": "high",
+    "due_date": "2026-05-02"
+  },
+  {
+    "id": 7,
+    "title": "Learn ES6 Features",
+    "description": "Study arrow functions, destructuring, spread",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-03"
+  },
+  {
+    "id": 8,
+    "title": "Responsive Design",
+    "description": "Practice media queries for mobile and desktop",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-04"
+  },
+  {
+    "id": 9,
+    "title": "Git & GitHub",
+    "description": "Learn basic git commands and push projects",
+    "status": "completed",
+    "priority": "low",
+    "due_date": "2026-04-18"
+  },
+  {
+    "id": 10,
+    "title": "Deploy Project",
+    "description": "Deploy a project using Vercel",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-06"
+  }
+]
