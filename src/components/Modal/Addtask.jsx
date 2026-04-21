@@ -3,7 +3,7 @@
 import { CirclePlus } from "@gravity-ui/icons";
 import { Button, Input, Label, Modal, Surface, TextField } from "@heroui/react";
 
-export function Addtask() {
+export function Addtask({createTask}) {
   return (
     <Modal>
       <Button variant="secondary">Add To Task</Button>
@@ -19,7 +19,7 @@ export function Addtask() {
             </Modal.Header>
             <Modal.Body className="p-6">
               <Surface variant="default">
-                <form className="flex flex-col gap-4">
+                <form action={createTask} className="flex flex-col gap-4">
                   <TextField className="w-full" name="name" type="text">
                     <Label>Name</Label>
                     <Input placeholder="Enter your name" />
