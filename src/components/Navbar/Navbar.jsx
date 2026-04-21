@@ -1,5 +1,6 @@
 import Link from "next/link";
-import ThemeButtonToggle from "../ThemeButton/ThemeButtonToggle";
+import ThemeButton from "../ThemeButton/ThemeButton";
+
 
 const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ const Navbar = () => {
         <Link href="/tasks">Tasks</Link>
       </div>
       <div>
-        <ThemeButtonToggle></ThemeButtonToggle>
+        <ThemeButton></ThemeButton>
       </div>
     </div>
   );
