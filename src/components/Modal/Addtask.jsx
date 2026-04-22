@@ -22,7 +22,7 @@ export function Addtask({createTask}) {
                 <form action={createTask} className="flex flex-col gap-4">
                   <TextField className="w-full" name="name" type="text">
                     <Label>Name</Label>
-                    <Input placeholder="Enter your name" />
+                    <Input  placeholder="Enter your name" />
                   </TextField>
                   <TextField className="w-full" name="email" type="email">
                     <Label>Email</Label>
